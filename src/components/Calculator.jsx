@@ -22,7 +22,7 @@ const Calculator = () => {
     <>
       <div className="min-h-screen w-screen flex flex-col items-center gap-10 px-3 py-10">
         <h1 className="text-4xl text-green-800 font-bold">Calculator</h1>
-        <div className="bg-green-400 p-4 max-w-96 rounded-md border-4 border-green-900 shadow-[0_1px_6px_5px#000]">
+        <div className="bg-green-400 p-4 max-w-96 rounded-md shadow-[0_1px_6px_5px#000]">
           <input
             className="bg-white rounded-md p-4 w-full text-2xl font-semibold text-black text-right tracking-wider shadow-inner shadow-current"
             type="text"
