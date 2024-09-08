@@ -1,9 +1,14 @@
-import React from "react";
-
-const Button = ({ text, color }) => {
+const Button = ({ text, style, action }) => {
   return (
     <>
-      <div>Button</div>
+      <button
+        onClick={action}
+        type="button"
+        className={`${style} ${text === "=" ? "col-span-2" : ""}`}
+        id={`${text}`}
+      >
+        {text}
+      </button>
     </>
   );
 };

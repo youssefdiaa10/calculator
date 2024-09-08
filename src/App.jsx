@@ -1,11 +1,10 @@
-import { useState } from "react";
+import Calculator from "./components/Calculator";
 
 function App() {
-  const [result, setResult] = useState();
   return (
     <>
       <div>
-        <h1 className="">App</h1>
+        <Calculator />
       </div>
     </>
   );
